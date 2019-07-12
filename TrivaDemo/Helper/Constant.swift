@@ -8,6 +8,11 @@
 
 import Foundation
 import UIKit
+struct ScreenSize
+{
+    static let SCREEN_WIDTH = UIScreen.main.bounds.size.width
+    static let SCREEN_HEIGHT = UIScreen.main.bounds.size.height
+ }
 
 //MARK:- Internet Validtaion Message
 let kNoInternetConnection = "No Internet Connection"
